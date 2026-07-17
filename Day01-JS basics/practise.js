@@ -21,3 +21,34 @@ console.log(experience);
 console.log(salary);
 console.log(remote);
 
+//IF ELSE
+
+//practise 1
+
+let salary1=30000;
+if (salary1>=50000)
+{
+    console.log("High salary");
+}
+else
+{
+    console.log("Average salary");
+}
+
+//practise 2
+
+let exp=4;
+
+if (exp>=5)
+{
+    console.log("Senior QA");
+}
+else if (exp>=2)
+{
+    console.log ("Mid QA");
+
+}
+else
+{
+    console.log("Junior QA");
+}
