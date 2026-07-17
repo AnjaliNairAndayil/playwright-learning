@@ -66,3 +66,37 @@ console.log(x%y);//1
 
 
 
+//Logical Operators
+
+let age1=22;
+let citizen=true;
+
+if (age1>=18 && citizen)
+{
+    console.log("Eligible to Vote");
+}
+else{
+console.log("not Eligible");
+}
+
+let hascoupon=false;
+let ismember=true;
+
+if (hascoupon || ismember)
+{
+    console.log("Discount eligible");
+
+}
+else{
+    console.log("Discount not eligible");
+}
+
+let rain=false;
+if (!rain)
+{
+    console.log("It is raining");
+}
+else
+{
+    console.log("not raining");
+}
