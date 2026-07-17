@@ -52,3 +52,17 @@ else
 {
     console.log("Junior QA");
 }
+
+//Operators
+
+let x=15;
+let y= 4;
+
+console.log(x+y); //19
+console.log(x-y); //11
+console.log(x*y);//60
+console.log(x/y);//3.75
+console.log(x%y);//1
+
+
+
