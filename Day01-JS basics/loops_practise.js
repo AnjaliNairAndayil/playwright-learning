@@ -43,3 +43,60 @@ for (let i=1;i<=10;i++)
     sum+=i;
     console.log(sum);
 }
+
+//while loops
+
+let i=3;
+
+while (i<=7)
+{
+    console.log(i);
+    i++;
+}
+
+//do while
+
+let j=5;
+
+do{
+    console.log(j);
+    j++;
+}
+
+while (j<5);
+
+//break
+
+for (let i=1;i<=6;i++)
+{
+    if (i==4)
+        break;
+    console.log(i);
+}
+
+//continue
+
+for(let i=1;i<=6;i++)
+{
+    if(i==4)
+        continue;
+    console.log(i);
+}
+
+
+//challenge
+
+//Print numbers from 1 to 20, but:
+
+//Skip 7
+//Stop completely when you reach 15
+
+for (let i=1;i<=20;i++)
+{
+    if (i==7)
+        continue;
+    else if (i==15)
+        break;
+    else
+        console.log(i);
+}
