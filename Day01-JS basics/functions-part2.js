@@ -60,3 +60,19 @@ const greet1 = () =>
 
 let gr=greet1();
 console.log(gr);
+
+//Arrow with parameters
+
+const add1 = (a1,b) =>
+{
+    return (a1+b);
+}
+
+let sum=add1(10,20);
+console.log(sum);
+
+//short arrow
+
+const mul = (a2,e) =>  (a2*e)
+
+console.log (product=mul(2,5));
