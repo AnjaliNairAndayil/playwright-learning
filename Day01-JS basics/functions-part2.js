@@ -76,3 +76,80 @@ console.log(sum);
 const mul = (a2,e) =>  (a2*e)
 
 console.log (product=mul(2,5));
+
+// global variable
+
+let company="AI";
+const showcompany=()=> company
+console.log(showcompany());
+
+//Practise1
+
+function multiply(a,b)
+    {
+        return a*b;
+    }
+let ans=multiply(6,4);
+console.log(ans);
+
+//Practise2
+
+const gr1=()=>
+{
+    console.log("Welcome");
+}
+gr1();
+
+//Pracrtise 3
+
+let city='Delhi';
+
+function show()
+{
+    console.log(city);
+}
+
+show();
+
+//Challenge
+
+const subtract=(a,b)=> a-b;
+
+console.log(subtract(20,5));
+
+//Challenge 2
+
+const isEven=(num) => 
+{
+    if (num%2==0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+even = isEven(24)
+if (even)
+{
+    console.log("Even");
+}
+else
+{
+    console.log("False");
+}
+
+//challenge 3
+
+const largest=(n1,n2)=>{
+    if (n1>n2)
+    {
+        console.log("the largest is: ", n1);
+    }
+    else{
+        console.log("the largest is: ", n2);
+    }
+}
+
+largest(50,100)
