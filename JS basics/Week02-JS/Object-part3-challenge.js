@@ -67,3 +67,20 @@ console.log("RUnning Test");
 console.log("Environment :", testData.environment);
 console.log("Broswer :",testData.browser);
 console.log("Username :", testData.username);
+
+//QA challenge
+const loginResponse = {
+    status: 200,
+    message: "Login Successful",
+    user: {
+        id: 101,
+        name: "Anjali",
+        role: "QA Engineer"
+    }
+};
+
+console.log("Status : ", loginResponse.status);
+console.log("Message : ", loginResponse.message);
+console.log("User ID : ", loginResponse.user.id);
+console.log("User Name : ", loginResponse.user.name);
+console.log("Role : ", loginResponse.user.role);
